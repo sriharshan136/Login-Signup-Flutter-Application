@@ -21,7 +21,7 @@ class Background extends StatelessWidget {
             right: 0,
             child: Image.asset(
               "assets/images/top_1.png",
-              width: size.width * 0.4,
+              width: size.width * 1,
             ),
           ),
           Positioned(
@@ -29,7 +29,7 @@ class Background extends StatelessWidget {
             right: 0,
             child: Image.asset(
               "assets/images/top_2.png",
-              width: size.width * 0.4,
+              width: size.width * 1,
             ),
           ),
           Positioned(
@@ -37,7 +37,7 @@ class Background extends StatelessWidget {
             left: 0,
             child: Image.asset(
               "assets/images/bottom_1.png",
-              width: size.width * 0.2,
+              width: size.width * 1,
             ),
           ),
           Positioned(
@@ -45,7 +45,7 @@ class Background extends StatelessWidget {
             left: 0,
             child: Image.asset(
               "assets/images/bottom_2.png",
-              width: size.width * 0.2,
+              width: size.width * 1,
             ),
           ),
           Positioned(

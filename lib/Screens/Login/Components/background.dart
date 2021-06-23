@@ -21,7 +21,7 @@ class Background extends StatelessWidget {
             left: 0,
             child: Image.asset(
               "assets/images/login_top_1.png",
-              width: size.width * 0.4,
+              width: size.width * 0.5,
             ),
           ),
           Positioned(
@@ -29,7 +29,7 @@ class Background extends StatelessWidget {
             left: 0,
             child: Image.asset(
               "assets/images/login_top_2.png",
-              width: size.width * 0.4,
+              width: size.width * 1,
             ),
           ),
           Positioned(
@@ -37,7 +37,7 @@ class Background extends StatelessWidget {
             right: 0,
             child: Image.asset(
               "assets/images/login_bottom_1.png",
-              width: size.width * 0.4,
+              width: size.width * 0.5,
             ),
           ),
           Positioned(
@@ -45,7 +45,7 @@ class Background extends StatelessWidget {
             right: 0,
             child: Image.asset(
               "assets/images/login_bottom_2.png",
-              width: size.width * 0.4,
+              width: size.width * 1,
             ),
           ),
           child,
